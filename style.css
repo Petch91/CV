@@ -1,0 +1,272 @@
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif
+}
+
+body {
+    background: linear-gradient(#808080,#3fada8);
+    min-height: 1000px
+}
+
+/*page container*/
+.allContent {
+    margin: 10px;
+    display: flex;
+    min-height: 900px;
+    position: relative
+}
+
+/*part left*/
+.leftRight {
+    background-color: rgba(243, 241, 241, 0.89);
+    width: 33%;
+    margin: 16px 5px;
+
+    box-shadow: 3px 3px 5px 4px rgb(63, 61, 61);
+    border-radius: 10px;
+
+}
+.presentation
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentation p{
+
+    font-size: 1.2em;
+    font-style: italic;
+    color: teal;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+}
+
+.Top img {
+
+    width: 35%;
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-right: 15px;
+    box-shadow:
+        3.1px 3.1px 2.7px rgba(0, 0, 0, 0.119),
+        7.9px 7.7px 6.9px rgba(0, 0, 0, 0.151),
+        16.1px 15.8px 14.2px rgba(0, 0, 0, 0.171),
+        33.2px 32.5px 29.2px rgba(0, 0, 0, 0.193),
+        91px 89px 80px rgba(0, 0, 0, 0.26);
+
+}
+
+.pierre {
+    margin: 0px 0 0 20px;
+    font-size: 27px
+}
+
+/* Skills*/
+.partTwo {
+    margin: 30px 20px
+}
+
+.partTwo p ,a{
+    color: rgb(21, 21, 41);
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+i {
+    color: teal;
+    margin-right: 20px;
+    font-size: 20px
+}
+
+i+i {
+    color: teal;
+    margin-right: 12px;
+    margin-left: 12px;
+    font-size: 20px
+}
+
+hr {
+    color: rgb(21, 21, 41);
+    margin: 0 30px
+}
+
+.star {
+    font-size: 20px;
+}
+
+.outside {
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black
+}
+
+.inside {
+    background-color: teal;
+    border-radius: 15px;
+    color: white
+}
+
+#ninty {
+    width: 90%
+}
+
+#eighty-five {
+    width: 85%
+}
+
+#eighty {
+    width: 80%
+}
+
+#seventy-five {
+    width: 75%
+}
+
+#sixty-five {
+    width: 65%
+}
+
+#fifty {
+    width: 50%
+}
+
+#one-hundred {
+    width: 100%
+}
+
+#fifty-five {
+    width: 55%
+}
+
+#tweny-five {
+    width: 28%
+}
+
+.softHobbies
+{
+    display: flex;
+    justify-content: space-around;
+}
+.soft{
+    margin-left: -15px;
+    margin-top: -15px;
+    margin-bottom: -20px;
+}
+li{
+    text-decoration: underline;
+}
+
+/*part right*/
+.rightLeft {
+    width: 70%;
+    margin: -4px -8px 0 5px;
+}
+
+/*experience.. education*/
+.partRight {
+    background-color: rgba(243, 241, 241, 0.89);
+    box-shadow: 3px 3px 5px 4px rgb(63, 61, 61);
+    border-radius: 10px;
+}
+
+.com {
+    margin: 0 30px
+}
+
+.com h5 {
+    color: rgb(21, 21, 41);
+    font-size: 16px;
+}
+
+.icon {
+    margin: 20px 0 5px 0;
+    padding: 32px 0 0;
+    color: rgb(21, 21, 41)
+}
+
+.icon i {
+    font-size: 35px
+}
+
+h6 {
+    color: teal;
+    margin: 10px 0;
+    font-size: 15px
+}
+
+span {
+    color: white;
+    background-color: teal;
+    padding: 3px 8px;
+    border-radius: 5px
+}
+
+.end {
+    padding-bottom: 50px
+}
+
+/*frame work*/
+.center {
+    text-align: center
+}
+
+/*media quries to mall screen*/
+@media (max-width:420px) {
+    .allContent {
+        display: block;
+    }
+
+    .leftRight {
+        width: 100%;
+        max-height: 1300px
+    }
+
+    .rightLeft {
+        width: 100%
+    }
+
+    #langues
+    {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width:640px) {
+
+    .allContent {
+        display: block;
+    }
+
+    .leftRight {
+        width: 100%;
+        max-height: 1600px
+    }
+
+    .rightLeft {
+        width: 100%
+    }
+
+    #langues
+    {
+        margin-bottom: 30px;
+    }
+
+}
