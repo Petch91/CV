@@ -110,53 +110,42 @@ hr {
 .star {
     font-size: 20px;
 }
-
-.outside {
-    background-color: white;
-    border-radius: 15px;
-    border: 1px solid black
+.competence{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
+
+.ronds{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.rondPlein{
+    background-color: teal;
+    border-radius: 90px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+}
+.rondVide{
+    background-color: white;
+    border-radius: 90px;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
+
 
 .inside {
     background-color: teal;
     border-radius: 15px;
-    color: white
-}
-
-#ninty {
-    width: 90%
-}
-
-#eighty-five {
-    width: 85%
-}
-
-#eighty {
-    width: 80%
-}
-
-#seventy-five {
-    width: 75%
-}
-
-#sixty-five {
-    width: 65%
-}
-
-#fifty {
-    width: 50%
-}
-
-#one-hundred {
-    width: 100%
-}
-
-#fifty-five {
-    width: 55%
-}
-
-#tweny-five {
-    width: 28%
+    color: white;
+    height: 20px;
+    width: 200px;
 }
 
 .softHobbies
