@@ -263,6 +263,21 @@ span {
     {
         margin-bottom: 30px;
     }
+    .ronds{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    
+    }
+    .rondPlein{
+        height: 10px;
+        width: 10px;
+
+    }
+    .rondVide{
+        height: 10px;
+        width: 10px;
+    }
 
 }
 
@@ -288,18 +303,18 @@ span {
 
     .ronds{
         display: flex;
-        gap: 15px;
+        gap: 20px;
         align-items: center;
     
     }
     .rondPlein{
-        height: 10px;
-        width: 10px;
+        height: 15px;
+        width: 15px;
 
     }
     .rondVide{
-        height: 10px;
-        width: 10px;
+        height: 15px;
+        width: 15px;
     }
 
 }
