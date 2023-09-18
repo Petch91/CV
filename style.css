@@ -245,45 +245,7 @@ span {
 }
 
 /*media quries to mall screen*/
-@media (max-width:420px) {
-    .allContent {
-        display: block;
-    }
 
-    .leftRight {
-        width: 100%;
-        max-height: 1300px
-    }
-
-    .rightLeft {
-        width: 100%
-    }
-
-    #langues
-    {
-        margin-bottom: 30px;
-    }
-    .competence{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .ronds{
-        display: flex;
-        gap: 15px;
-        align-items: center;
-    
-    }
-    .rondPlein{
-        height: 10px;
-        width: 10px;
-
-    }
-    .rondVide{
-        height: 10px;
-        width: 10px;
-    }
-
-}
 @media (max-width:1200px) {
 
     .allContent {
@@ -368,3 +330,42 @@ span {
 
 }
 
+@media (max-width:420px) {
+    .allContent {
+        display: block;
+    }
+
+    .leftRight {
+        width: 100%;
+        max-height: 1300px
+    }
+
+    .rightLeft {
+        width: 100%
+    }
+
+    #langues
+    {
+        margin-bottom: 30px;
+    }
+    .competence{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .ronds{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    
+    }
+    .rondPlein{
+        height: 10px;
+        width: 10px;
+
+    }
+    .rondVide{
+        height: 10px;
+        width: 10px;
+    }
+
+}
